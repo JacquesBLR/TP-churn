@@ -2,6 +2,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 import joblib
 
+# lecture des données
 dataset = pd.read_csv('data/train_data.csv')
 
 X = dataset[['Age', 'Account_Manager', 'Years', 'Num_Sites']]
