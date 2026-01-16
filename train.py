@@ -12,6 +12,7 @@ y = dataset['Churn']
 # Model logistic Regression
 model = LogisticRegression()
 
+# Model
 model.fit(X, y)
 
 # Sauvegarde du modèle entraîné
