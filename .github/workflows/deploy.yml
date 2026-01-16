@@ -49,4 +49,4 @@ jobs:
  
       - name: Deploy to Elastic Beanstalk
         run: |
-          eb deploy Env-jacques-churn
+          eb deploy Jacques-churn-env 
