@@ -9,6 +9,7 @@ X = dataset[['Age', 'Account_Manager', 'Years', 'Num_Sites']]
 
 y = dataset['Churn']
 
+# Model logistic Regression
 model = LogisticRegression()
 
 model.fit(X, y)
